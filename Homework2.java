@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 public class Homework2 extends JFrame implements ActionListener {
     // I am declaring the Swig components
     JLabel sizeLabel = new JLabel("Select Pizza Size:");
-    JComboBox<String> sizeComboBox = new JComboBox<>(new String[]{"Small - $", "Medium - $10", "Large - $15", "Super - $20"});
+    JComboBox<String> sizeComboBox = new JComboBox<>(new String[]{"Small - $5", "Medium - $10", "Large - $15", "Super - $20"});
     JLabel toppingLabel = new JLabel("Select Toppings (Max 3):");
     JPanel toppingPanel = new JPanel();
     JCheckBox[] toppingCheckboxes;
